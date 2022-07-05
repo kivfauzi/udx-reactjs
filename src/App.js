@@ -16,6 +16,8 @@ import Profile from './Components/Account/Profile';
 import Feedback from './Components/Account/Feedback';
 import About from './Components/Account/About';
 import SavedAddress from './Components/Account/SavedAddress';
+import EditAddress from './Components/Account/EditAddress';
+import CreateAddress from './Components/Account/CreateAddress'
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
                 <Route path="/address" element={<SavedAddress />} />
                 <Route path="/feedback" element={<Feedback />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/address/edit" element={<EditAddress />} />
+                <Route path="/address/create" element={<CreateAddress />} />
             {/* </Routes> */}
         </Routes>
         <Footer />
