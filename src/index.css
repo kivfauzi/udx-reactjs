@@ -27,3 +27,9 @@ code {
 .icon-size {
   font-size: 1.4em;
 }
+
+textarea:focus-visible {
+  outline-offset: 0px!important;
+}
+
+

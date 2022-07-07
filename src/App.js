@@ -18,6 +18,7 @@ import About from './Components/Account/About';
 import SavedAddress from './Components/Account/SavedAddress';
 import EditAddress from './Components/Account/EditAddress';
 import CreateAddress from './Components/Account/CreateAddress'
+import EditProfile from './Components/Account/EditProfile'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/address/edit" element={<EditAddress />} />
                 <Route path="/address/create" element={<CreateAddress />} />
+                <Route path="/profile/edit" element={<EditProfile />} />
             {/* </Routes> */}
         </Routes>
         <Footer />

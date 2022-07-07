@@ -18,7 +18,7 @@ function EditAddress() {
                 <div className='flex w-full'>
                     <FaArrowLeft
                         className='icon-size'
-                        onClick={() => navigate('/address')} />
+                        onClick={() => navigate('/account')} />
                     <span className='ml-4 text-base font-bold'>Share Your Feedback</span>
                 </div>
             </div>

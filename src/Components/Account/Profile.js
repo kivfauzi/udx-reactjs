@@ -18,8 +18,8 @@ function Profile() {
                 </div>
 
                 <FaEdit
-                    className='icon-size'
-                    onClick={() => navigate('/account')} />
+                    className='icon-size text-red-600'
+                    onClick={() => navigate('/profile/edit')} />
             </div>
             <img alt="Avatar" src={avatar} className="m-auto w-16 mt-2 rounded-full" />
             <p className='my-4 text-center'>Change Photo</p>     
