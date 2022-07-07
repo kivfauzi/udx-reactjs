@@ -20,11 +20,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
+},
   "browserslist": {
     "production": [
       ">0.2%",
